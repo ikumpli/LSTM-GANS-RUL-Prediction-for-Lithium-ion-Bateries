@@ -1,0 +1,8 @@
+*.csv
+*.pdf
+*.docx
+*.h5
+*.pkl
+*.xlsx
+.ipynb_checkpoints/
+01_data/
