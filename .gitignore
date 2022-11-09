@@ -5,4 +5,4 @@
 *.pkl
 *.xlsx
 .ipynb_checkpoints/
-data/
+02_data/

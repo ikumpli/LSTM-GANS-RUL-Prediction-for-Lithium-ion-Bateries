@@ -1,11 +1,9 @@
 import tensorflow as tf
 from tensorflow import keras
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 import pandas as pd
 import pickle
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from keras import backend as K
 from itertools import chain
@@ -62,7 +60,7 @@ def customLoss(true,pred):
 def model_run(steps, X_train, y_train):
     np.random.seed(26), tf.random.set_seed(26);
     early_stopping = keras.callbacks.EarlyStopping(patience=5000, restore_best_weights=True)
-    checkpoint_first_model_Bi_LSTM = keras.callbacks.ModelCheckpoint(models_path + f'first_model_Bidirectional_LSTM_good_adapted_{steps+1}.h5', verbose = 0, save_best_only=True)
+    checkpoint_first_model_Bi_LSTM = keras.callbacks.ModelCheckpoint(models_path + f'Bidirectional_LSTM_adapted_{steps+1}.h5', verbose = 0, save_best_only=True)
 
     model_lstm_bidirectional = keras.Sequential()
     forward_layer = keras.layers.LSTM(624, activation = keras.layers.LeakyReLU(alpha=0.3), recurrent_dropout = 0.05)
