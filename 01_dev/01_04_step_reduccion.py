@@ -75,15 +75,17 @@ def model_run(steps, X_train, y_train):
     historyBiLSTM = model_lstm_bidirectional.fit(X_train, y_train, epochs=20000, batch_size=16, validation_split=0.2, verbose=1, shuffle=False, callbacks=[checkpoint_first_model_Bi_LSTM, early_stopping])
     print(f"***************************************** MODEL OF {steps+1} STEPS HAS FINISHED ******************************************")
 
-model_list = [3,5,7,9]:
-for j in model_list:
-    x, y = x_and_y(df_desc_final_pickle, num_steps = j-1, index = False)
-    X_train,X_test,y_train_mod,y_test_mod = train_test_split(x, y,test_size=0.2, random_state=42, stratify=y[:,[1,2]])
-    y_train, y_test = y_train_mod[:,0].reshape(-1,1), y_test_mod[:,0].reshape(-1,1)
-    X_train, y_train, X_test, y_test = np.stack(X_train, axis = 0), np.stack(y_train, axis = 0), np.stack(X_test, axis = 0), np.stack(y_test, axis = 0)
 
-    scaler = StandardScaler()
-    X_train = scaler.fit_transform(X_train.reshape(-1, X_train.shape[-1])).reshape(X_train.shape)
-    X_test = scaler.transform(X_test.reshape(-1, X_test.shape[-1])).reshape(X_test.shape)
-    model_run(j-1, X_train, y_train)
+if __name__ == "__main__":
+    model_list = [3,5,7,9]:
+    for j in model_list:
+        x, y = x_and_y(df_desc_final_pickle, num_steps = j-1, index = False)
+        X_train,X_test,y_train_mod,y_test_mod = train_test_split(x, y,test_size=0.2, random_state=42, stratify=y[:,[1,2]])
+        y_train, y_test = y_train_mod[:,0].reshape(-1,1), y_test_mod[:,0].reshape(-1,1)
+        X_train, y_train, X_test, y_test = np.stack(X_train, axis = 0), np.stack(y_train, axis = 0), np.stack(X_test, axis = 0), np.stack(y_test, axis = 0)
+
+        scaler = StandardScaler()
+        X_train = scaler.fit_transform(X_train.reshape(-1, X_train.shape[-1])).reshape(X_train.shape)
+        X_test = scaler.transform(X_test.reshape(-1, X_test.shape[-1])).reshape(X_test.shape)
+        model_run(j-1, X_train, y_train)
 
