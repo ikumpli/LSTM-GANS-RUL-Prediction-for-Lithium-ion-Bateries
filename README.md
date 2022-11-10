@@ -29,7 +29,7 @@ prediction based on data augmentation” model has been designed as our project.
 
 - Simple LSTM & GRU
 - Bidirectional LSTM & GRU
-- GANs applied to LSTM
+- LSTM-GANs
 
 
 ## Development 👋
