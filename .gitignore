@@ -3,6 +3,7 @@
 *.docx
 *.h5
 *.pkl
+*.DS_store
 *.xlsx
 .ipynb_checkpoints/
 02_data/
