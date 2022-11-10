@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-<img src="https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/logo.png" width="300">
+<img src="https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/logo.png" width="100">
 </h1><br>
 
 # INDUSTRY CHALLENGE
@@ -11,7 +11,7 @@
   <img alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
-This repository contains the code used for the research study of RUL prediction, based on data augmentation 
+This repository contains the code used for the research study of RUL prediction, based on data augmentation .
 ## What is the project about?
 For this project, based on the RUL prediction, a deep learning based approach trained on the widely-used
 Oxford battery degradation dataset with the help of generative adversarial
