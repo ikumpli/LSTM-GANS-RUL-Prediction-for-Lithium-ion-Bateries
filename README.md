@@ -12,10 +12,10 @@
 [![Documentation Status](https://readthedocs.org/projects/outdpik/badge/?version=latest)](https://outdpik.readthedocs.io/en/latest/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## What is it?
-Outdpik is an open source Python package that provides different methods for outlier detection. 
-It aims to be the fundamental high-level package for this purpose. 
-Additionally, it offers visualization methods for the outlier analysis.
+## What is the project about?
+For this project, based on the RUL prediction, a deep learning based approach trained on the widely-used
+Oxford battery degradation dataset with the help of generative adversarial
+networks (GANS) has been implemented.
 
 ## Main Features
 Here are just a few of the things that outdpik does well:
