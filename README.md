@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-<img src="https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/logo.png" width="100">
+<img src="https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/logo.png" width="200">
 </h1><br>
 
 # INDUSTRY CHALLENGE
