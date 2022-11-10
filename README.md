@@ -22,7 +22,8 @@ sectors, such as electric vehicles, thanks to their higher energy density and
 low self-discharge. With the use and passage of time, batteries degrade and
 eventually die, endangering the integrity of the objects they power.
 
-To prevent all these from happening a “Fault Detection for Predictive Maintenance in Industry 4.0” model has been designed as our project.
+To prevent all these from happening a “A deep learning based approach for lithium-ion-battery RUL
+prediction based on data augmentation” model has been designed as our project.
 
 ### Algorithms used
 
