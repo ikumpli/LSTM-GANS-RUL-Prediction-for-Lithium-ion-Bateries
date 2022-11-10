@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-<img src="https://github.com/DanielPuentee/outdpik/blob/main/branding/logo/primary/outdpik.png?raw=true" width="300">
+<img src="[https://github.com/DanielPuentee/outdpik/blob/main/branding/logo/primary/outdpik.png?raw=true](https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/logo.png)" width="300">
 </h1><br>
 
 # INDUSTRY CHALLENGE
