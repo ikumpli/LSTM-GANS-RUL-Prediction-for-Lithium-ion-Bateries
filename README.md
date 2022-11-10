@@ -6,71 +6,31 @@
 
 # INDUSTRY CHALLENGE
 
-[![PyPI Latest Release](https://img.shields.io/pypi/v/outdpik.svg)](https://pypi.org/project/outdpik/)
-[![PyPI License](https://img.shields.io/pypi/l/outdpik.svg)](license.txt)
-[![Package Status](https://img.shields.io/pypi/status/pandas.svg)](https://pypi.org/project/outdpik/)
-[![Documentation Status](https://readthedocs.org/projects/outdpik/badge/?version=latest)](https://outdpik.readthedocs.io/en/latest/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+<p align="center">
+  <img alt="jupyter notebook" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
+  <img alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
 
+This repository contains the code used for the research study of RUL prediction, based on data augmentation 
 ## What is the project about?
 For this project, based on the RUL prediction, a deep learning based approach trained on the widely-used
 Oxford battery degradation dataset with the help of generative adversarial
 networks (GANS) has been implemented.
 
-## Main Features
-Here are just a few of the things that outdpik does well:
+Lithium-ion batteries are one of the most widely used solutions in many
+sectors, such as electric vehicles, thanks to their higher energy density and
+low self-discharge. With the use and passage of time, batteries degrade and
+eventually die, endangering the integrity of the objects they power.
 
-- It supports numpy arrays and pandas dataframes
-- Multiple outlier detection techniques that can be combined
-- Powerful visualizations
-- Flexible at including one or more columns for the analysis
+To prevent all these from happening a “Fault Detection for Predictive Maintenance in Industry 4.0” model has been designed as our project.
 
-## Where to get it
-The source code is currently hosted on GitHub at:
-https://github.com/DanielPuentee/outdpik
+### Algorithms used
 
-Installer for the latest released version is available at the [Python
-Package Index (PyPI)](https://pypi.org/project/outdpik)
+- Artificial Neural Network 
+- LSTM + Bidirectional
+- GRU + Bidirection
+- LSTM GAN
 
-```sh
-# PyPI
-pip install outdpik
-```
-
-## How to use outdpik
-Examples of configuring and running outpdik:
-
-```python
-import outpdik as outdp
-outdp = outdp()
-```
-
-We proceed to detect outliers returning a dictionary of numeric features and the outliers instances:
-
-```python
-outliers_dict = outdp.outliers(df = df, cols = "all")
-```
-Plotting advantages:
-
-```python
-outdp.plot_outliers(df = df, col = "x")
-```
-<h1 align="center">
-<img src="https://github.com/DanielPuentee/outdpik/blob/main/branding/logo/primary/graph.png?raw=true" width=450 alt="Strip plot outliers detection">
-</h1><br>
-
-## Dependencies
-- [pandas - Provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both easy and intuitive](https://pandas.pydata.org/)
-- [NumPy - Adds support for large, multi-dimensional arrays, matrices and high-level mathematical functions to operate on these arrays](https://www.numpy.org)
-- [SciPy - Includes modules for statistics, optimization, integration, linear algebra, Fourier transforms, signal and image processing, ODE solvers, and more](https://scipy.org/)
-- [matplotlib - Comprehensive library for creating static, animated, and interactive visualizations in Python](https://matplotlib.org/)
-- [seaborn - Provides a high-level interface for drawing attractive statistical graphics](https://seaborn.pydata.org/)
-
-## License
-This project is licensed under the terms of the [GNU](https://github.com/DanielPuentee/outdpik/blob/main/license.txt) - see the LICENSE file for details.
-
-## Documentation
-The official documentation is hosted on: https://outdpik.readthedocs.io/en/latest/
 
 ## Development
 Want to contribute? Great!
