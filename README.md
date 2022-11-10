@@ -1,10 +1,10 @@
 
 
 <h1 align="center">
-<img src="https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/logo.png" width="200">
+<img src="https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/images/logo.png" width="200">
 </h1><br>
 
-# INDUSTRY CHALLENGE
+# A deep learning based approach for lithium-ion-battery RUL prediction implementing data augmentation
 
 <p align="center">
   <img alt="jupyter notebook" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
@@ -27,12 +27,11 @@ prediction based on data augmentation” model has been designed as our project.
 
 ### Algorithms used
 
-- Artificial Neural Network 
-- LSTM + Bidirectional
-- GRU + Bidirection
-- LSTM GAN
+- Simple LSTM & GRU
+- Bidirectional LSTM & GRU
+- GANs applied to LSTM
 
 
-## Development
+## Development 👋
 Want to contribute? Great!
 Open a discussion in Github in this repo and we will answer as soon as possible.
