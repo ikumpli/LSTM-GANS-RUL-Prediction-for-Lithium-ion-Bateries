@@ -26,14 +26,14 @@ eventually die, endangering the integrity of the objects they power.
 To prevent all these from happening a “A deep learning based approach for lithium-ion-battery RUL
 prediction based on data augmentation” model has been designed as our project.
 
-### Algorithms used
+## Algorithms used
 <br>
 
 - Simple LSTM & GRU
 - Bidirectional LSTM & GRU
 - LSTM-GANs
 
-### Authors
+## Authors
 <br>
 - Iker Cumplido
 - Daniel Puente
