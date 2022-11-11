@@ -7,7 +7,7 @@
 # A deep learning based approach for lithium-ion-battery RUL prediction implementing data augmentation
 
 <p align="center">
-  <img alt="jupyter notebook" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
+  <img alt="jupyter notebook" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" (https://pypi.org/project/outdpik/)/>
   <img alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
