@@ -42,6 +42,7 @@ prediction based on data augmentation” model has been designed as our project.
 
 ## Folder distribution
 
+```
   .
   ├── ...
   ├── 01_dev                    # Test files (alternatively `spec` or `tests`)
@@ -49,14 +50,7 @@ prediction based on data augmentation” model has been designed as our project.
   │   ├── hyperas_tunning         # Neural Network tunning notebook
   │   └── ...                # Rest of the notebooks used for the project development
   └── images
-
-.
-├── ...
-├── test                    # Test files (alternatively `spec` or `tests`)
-│   ├── benchmarks          # Load and stress tests
-│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-│   └── unit                # Unit tests
-└── ...
+```
 
 ## Development 
 <br>
