@@ -12,8 +12,8 @@
 </p>
 
 This repository contains the code used for the research study of RUL prediction, based on data augmentation .
-<p align="center">
 ## What is this project about?
+<br>
 For this project, based on the RUL prediction, a deep learning based approach trained on the widely-used
 Oxford battery degradation dataset with the help of generative adversarial
 networks (GANS) has been implemented.
@@ -25,7 +25,6 @@ eventually die, endangering the integrity of the objects they power.
 
 To prevent all these from happening a “A deep learning based approach for lithium-ion-battery RUL
 prediction based on data augmentation” model has been designed as our project.
-  </p>
 
 ### Algorithms used
 
