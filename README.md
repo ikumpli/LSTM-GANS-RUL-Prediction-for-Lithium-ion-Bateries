@@ -27,18 +27,21 @@ To prevent all these from happening a “A deep learning based approach for lith
 prediction based on data augmentation” model has been designed as our project.
 
 ### Algorithms used
+<br>
 
 - Simple LSTM & GRU
 - Bidirectional LSTM & GRU
 - LSTM-GANs
 
 ### Authors
+<br>
 - Iker Cumplido
 - Daniel Puente
 - Iñigo Ugarte
 - Jon Amelibia
 - Aitor Hernandez
 
-## Development 👋
+## Development 
+<br>
 Want to contribute? Great!
 Open a discussion in Github in this repo and we will answer as soon as possible.
