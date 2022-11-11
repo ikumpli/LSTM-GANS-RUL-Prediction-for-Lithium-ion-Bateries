@@ -50,6 +50,14 @@ prediction based on data augmentation” model has been designed as our project.
 │   └── ...                # Rest of the notebooks used for the project development
 └── images
 
+.
+├── ...
+├── test                    # Test files (alternatively `spec` or `tests`)
+│   ├── benchmarks          # Load and stress tests
+│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+│   └── unit                # Unit tests
+└── ...
+
 ## Development 
 <br>
 Want to contribute? Great!
