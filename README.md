@@ -44,7 +44,7 @@ prediction based on data augmentation” model has been designed as our project.
 
 ```
   .
-  ├── 01_dev                    # Test files (alternatively `spec` or `tests`)
+  ├── 01_dev                    
   │   ├── functions         # Functions used 
   │   ├── hyperas_tunning         # Neural Network tunning notebook
   │   └── ...                # Rest of the notebooks used for the project development
