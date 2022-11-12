@@ -4,7 +4,7 @@
 <img src="https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/images/logo.png" width="1000">
 </h1><br>
 
-# A deep learning based approach for lithium-ion-battery RUL prediction implementing data augmentation
+# Lithium-ion battery optimal RUL prediction combining LSTM and GANs
 
 <p align="center">
   <img alt="jupyter notebook" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
@@ -32,14 +32,6 @@ prediction based on data augmentation” model has been designed as our project.
 - Bidirectional LSTM & GRU
 - LSTM-GANs
 
-## Authors
-
-- Iker Cumplido
-- Daniel Puente
-- Iñigo Ugarte
-- Jon Amelibia
-- Aitor Hernandez
-
 ## Folder distribution
 
 ```
@@ -56,3 +48,11 @@ prediction based on data augmentation” model has been designed as our project.
 <br>
 Want to contribute? Great!
 Open a discussion in Github in this repo and we will answer as soon as possible.
+
+## Authors
+
+- Jon Amelibia
+- Iker Cumplido
+- Aitor Hernandez
+- Daniel Puente
+- Iñigo Ugarte
