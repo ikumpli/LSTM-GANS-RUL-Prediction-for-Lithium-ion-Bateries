@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-<img src="https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/images/logo.png" width="200">
+<img src="https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/images/logo-PhotoRoom.png" width="200">
 </h1><br>
 
 # A deep learning based approach for lithium-ion-battery RUL prediction implementing data augmentation
@@ -13,6 +13,7 @@
 
 This repository contains the code used for the research study of RUL prediction, based on data augmentation .
 ## What is this project about?
+<br>
 For this project, based on the RUL prediction, a deep learning based approach trained on the widely-used
 Oxford battery degradation dataset with the help of generative adversarial
 networks (GANS) has been implemented.
@@ -25,13 +26,33 @@ eventually die, endangering the integrity of the objects they power.
 To prevent all these from happening a “A deep learning based approach for lithium-ion-battery RUL
 prediction based on data augmentation” model has been designed as our project.
 
-### Algorithms used
+## Algorithms used
 
 - Simple LSTM & GRU
 - Bidirectional LSTM & GRU
 - LSTM-GANs
 
+## Authors
 
-## Development 👋
+- Iker Cumplido
+- Daniel Puente
+- Iñigo Ugarte
+- Jon Amelibia
+- Aitor Hernandez
+
+## Folder distribution
+
+```
+  .
+  ├── 01_dev                    
+  │   ├── functions         # Functions used 
+  │   ├── hyperas_tunning         # Neural Network tunning notebook
+  │   └── ...                # Rest of the notebooks used for the project development
+  ├── images
+  └──...
+```
+
+## Development 
+<br>
 Want to contribute? Great!
 Open a discussion in Github in this repo and we will answer as soon as possible.
