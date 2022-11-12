@@ -52,7 +52,7 @@ prediction based on data augmentation” model has been designed as our project.
   └──...
 ```
 
-## Development 
+## Development 👋
 <br>
 Want to contribute? Great!
 Open a discussion in Github in this repo and we will answer as soon as possible.
