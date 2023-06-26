@@ -1,15 +1,8 @@
-
-
-<h1 align="center">
-<img src="https://github.com/ikumpli/A-deep-learning-based-approach-for-lithium-ion-battery-RUL-prediction-based-on-data-augmentation/blob/main/images/logo.png" width="1000">
-</h1><br>
-
 # Lithium-ion battery optimal RUL prediction combining LSTM and GANs
+[![Package Status](https://img.shields.io/pypi/status/pandas.svg)](https://pypi.org/project/outdpik/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-<p align="center">
-  <img alt="jupyter notebook" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
-  <img alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+<img src="./images/intro.gif" alt="alt text" width="1000">
 
 This repository contains the code used for the research study of RUL prediction, based on data augmentation .
 ## What is this project about?
@@ -27,10 +20,9 @@ To prevent all these from happening a “A deep learning based approach for lith
 prediction based on data augmentation” model has been designed as our project.
 
 ## Algorithms used
-
-- Simple LSTM & GRU
-- Bidirectional LSTM & GRU
-- LSTM-GANs
+- [x] Simple LSTM & GRU
+- [x] Bidirectional LSTM & GRU
+- [x] LSTM-GANs
 
 ## Folder distribution
 
@@ -41,7 +33,7 @@ prediction based on data augmentation” model has been designed as our project.
   │   ├── hyperas_tunning         # Neural Network tunning notebook
   │   └── ...                # Rest of the notebooks used for the project development
   ├── images
-  └──...
+  └── ...
 ```
 
 ## Development 👋
